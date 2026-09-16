@@ -4,6 +4,7 @@ cd "$(dirname "$0")/.."
 lean --version
 lake build --wfail
 lake env lean -DwarningAsError=true LeanSyc/JSP000998.lean
+lake env lean -DwarningAsError=true LeanSyc/JSP000307.lean
 python3 - <<'PY'
 from pathlib import Path
 import re
@@ -15,4 +16,5 @@ for path in paths:
 print('Project Lean source scan passed.')
 PY
 lake env leanchecker --verbose LeanSyc.JSP000998
+lake env leanchecker --verbose LeanSyc.JSP000307
 echo 'Bundled kernel replay passed (not an independent checker implementation).'

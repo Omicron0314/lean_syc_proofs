@@ -1,15 +1,24 @@
 Lean (version 4.34.0, x86_64-unknown-linux-gnu, commit 293d5d0c0c3f3dded4688b3ccd6a33939ac5102b, Release)
-ℹ [3096/3098] Built LeanSyc.JSP000998 (4.8s)
+ℹ [3096/3099] Replayed LeanSyc.JSP000998
 info: LeanSyc/JSP000998.lean:114:0: 'LeanSyc.JSP000998.sumRep_eq_indicator_convolution' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: LeanSyc/JSP000998.lean:115:0: 'LeanSyc.JSP000998.density_one_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: LeanSyc/JSP000998.lean:116:0: 'LeanSyc.JSP000998.not_lower_density_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
 info: LeanSyc/JSP000998.lean:117:0: 'LeanSyc.JSP000998.not_uniform_upper_density_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
-✔ [3097/3098] Built LeanSyc (4.0s)
-Build completed successfully (3098 jobs).
+ℹ [3097/3099] Replayed LeanSyc.JSP000307
+info: LeanSyc/JSP000307.lean:93:0: 'LeanSyc.JSP000307.largestPrimeFactor_13' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanSyc/JSP000307.lean:94:0: 'LeanSyc.JSP000307.largestPrimeFactor_14' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanSyc/JSP000307.lean:95:0: 'LeanSyc.JSP000307.largestPrimeFactor_15' depends on axioms: [propext, Classical.choice, Quot.sound]
+info: LeanSyc/JSP000307.lean:96:0: 'LeanSyc.JSP000307.threeConsecutiveWithDecreasingP' depends on axioms: [propext, Classical.choice, Quot.sound]
+Build completed successfully (3099 jobs).
 'LeanSyc.JSP000998.sumRep_eq_indicator_convolution' depends on axioms: [propext, Classical.choice, Quot.sound]
 'LeanSyc.JSP000998.density_one_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
 'LeanSyc.JSP000998.not_lower_density_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
 'LeanSyc.JSP000998.not_uniform_upper_density_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanSyc.JSP000307.largestPrimeFactor_13' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanSyc.JSP000307.largestPrimeFactor_14' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanSyc.JSP000307.largestPrimeFactor_15' depends on axioms: [propext, Classical.choice, Quot.sound]
+'LeanSyc.JSP000307.threeConsecutiveWithDecreasingP' depends on axioms: [propext, Classical.choice, Quot.sound]
 Project Lean source scan passed.
 replaying LeanSyc.JSP000998
+replaying LeanSyc.JSP000307
 Bundled kernel replay passed (not an independent checker implementation).
